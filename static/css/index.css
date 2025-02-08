@@ -63,10 +63,10 @@ body {
 .publication-authors {
     font-family: 'Google Sans', sans-serif;
     gap: 40px; 
-    flex-wrap: wrap;
 }
 
 .publication-venue {
+    font-size: 2px;
     color: #555;
     width: fit-content;
     font-weight: bold;
