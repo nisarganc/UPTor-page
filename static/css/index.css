@@ -69,6 +69,13 @@ body {
     color: #555;
 }
 
+.publication-comment {
+  font-size: 0.9rem;  /* Smaller font size */
+  color: #888888;    /* Light grey color to give the feel of a "comment" */
+  font-style: italic; /* Optional: Italicize for a "commented" effect */
+  margin-top: 10px;   /* Add some space if needed */
+}
+
 .publication-awards {
     color: #ff3860;
     width: fit-content;
