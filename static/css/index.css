@@ -66,10 +66,7 @@ body {
 }
 
 .publication-venue {
-    font-size: 2px;
     color: #555;
-    width: fit-content;
-    font-weight: bold;
 }
 
 .publication-awards {
