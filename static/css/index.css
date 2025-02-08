@@ -62,6 +62,8 @@ body {
 
 .publication-authors {
     font-family: 'Google Sans', sans-serif;
+    gap: 20px; 
+    flex-wrap: wrap;
 }
 
 .publication-venue {
