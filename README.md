@@ -2,8 +2,6 @@
 
 This repository contains the source code for the [UPTor](https://nisarganc.github.io/UPTor-page/) website.
 
-# Credits
-
 The source code for this website is adapted from the [Nerfies](https://github.com/nerfies/nerfies.github.io) website.
 
 # Website License
