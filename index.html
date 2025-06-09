@@ -1,301 +1,301 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description"
-          content="Unified 3D Human Pose Dynamics and Trajectory Prediction Transformer Human-Robot Interaction">
-    <meta name="keywords" content="UPTor, Human-Motion-Prediction, HRI">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UPTor: Unified 3D Human Pose Dynamics and Trajectory Prediction for Human-Robot Interaction</title>
-  
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-  
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-  
-      gtag('js', new Date());
-  
-      gtag('config', 'G-PYVRSFMDRL');
-    </script>
-  
-    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-          rel="stylesheet">
-  
-    <link rel="stylesheet" href="./static/css/bulma.min.css">
-    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="stylesheet" href="./static/css/index.css">
-    <link rel="icon" href="./static/images/darko_skeleton.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="./static/js/fontawesome.all.min.js"></script>
-    <script src="./static/js/bulma-carousel.min.js"></script>
-    <script src="./static/js/bulma-slider.min.js"></script>
-    <script src="./static/js/index.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Unified 3D Human Pose Dynamics and Trajectory Prediction Transformer Human-Robot Interaction">
+  <meta name="keywords" content="UPTor, Human-Motion-Prediction, HRI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UPTor: Unified 3D Human Pose Dynamics and Trajectory Prediction for Human-Robot Interaction</title>
 
-  <body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <section class="publication-header">
-      <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered has-text-centered">
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-            <!-- Paper Title -->
-            <div class="column is-four-fifths">              
-              <h1 class="title">UPTor: Unified 3D Human Pose Dynamics and Trajectory Prediction for Human-Robot Interaction</h1>
-              <h2 class="title is-4">ICRA 2025</h2>
-            </div>
+    gtag('js', new Date());
 
-          </div>
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/darko_skeleton.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+<section class="publication-header">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+
+        <!-- Paper Title -->
+        <div class="column is-four-fifths">              
+          <h1 class="title">UPTor: Unified 3D Human Pose Dynamics and Trajectory Prediction for Human-Robot Interaction</h1>
+          <h2 class="title is-4">ICRA 2025</h2>
         </div>
-      </div>
-    </section>
 
-    <section class="publication-author-block">
-      <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="publication-author-block">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        
+        <!-- Authors Line -->
+        <div class="column has-text-centered">
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.de/citations?user=wFKpaUsAAAAJ&hl=en" target="_blank">Nisarga Nilavadi</a><sup>1,2</sup>&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=BlSfMYwAAAAJ&hl=en" target="_blank">Andrey Rudenko</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=s3_VpQYAAAAJ&hl=de" target="_blank">Timm Linder</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+          </span>   
+        </div>
+
+        <!-- Authors Affiliation -->
+        <div class="is-size-5 publication-authors">
+            <div class="publication-authors">
+              <span class="author-block"><sup>1</sup>Robert Bosch Corporate Research</span>&nbsp;&nbsp;&nbsp;
+              <span class="author-block"><sup>2</sup>University of Technology Nuremberg</span>
+            </div>
+        </div>
+
+        <!-- Resources Links -->
+        <div class="column has-text-centered">
+          <div class="publication-links">
             
-            <!-- Authors Line -->
-            <div class="column has-text-centered">
-              <div class="is-size-5 publication-authors">
-                <span class="author-block">
-                  <a href="https://scholar.google.de/citations?user=wFKpaUsAAAAJ&hl=en" target="_blank">Nisarga Nilavadi</a><sup>1,2</sup>&nbsp;&nbsp;&nbsp;
+            <!-- PDF Link. -->
+            <span class="link-block">
+              <a href="https://arxiv.org/pdf/2505.14866"
+                  class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
                 </span>
-                <span class="author-block">
-                  <a href="https://scholar.google.com/citations?user=BlSfMYwAAAAJ&hl=en" target="_blank">Andrey Rudenko</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+                <span>Paper</span>
+              </a>
+            </span> 
+            
+            <!-- Paper arXiv Link. -->
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/2505.14866" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
                 </span>
-                <span class="author-block">
-                  <a href="https://scholar.google.com/citations?user=s3_VpQYAAAAJ&hl=de" target="_blank">Timm Linder</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-              </span>   
-            </div>
-
-            <!-- Authors Affiliation -->
-            <div class="is-size-5 publication-authors">
-                <div class="publication-authors">
-                  <span class="author-block"><sup>1</sup>Robert Bosch Corporate Research</span>&nbsp;&nbsp;&nbsp;
-                  <span class="author-block"><sup>2</sup>University of Technology Nuremberg</span>
-                </div>
-            </div>
-
-            <!-- Resources Links -->
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                
-                <!-- PDF Link. -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2505.14866"
-                      class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span>Paper</span>
-                  </a>
-                </span> 
-                
-                <!-- Paper arXiv Link. -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2505.14866" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv</span>
-                  </a>
+                <span>arXiv</span>
+              </a>
+            </span>
+            
+            <!-- Dataset Link. -->
+            <span class="link-block">
+              <a href="https://github.com" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="far fa-images"></i>
                 </span>
-                
-                <!-- Dataset Link. -->
-                <span class="link-block">
-                  <a href="https://github.com" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="far fa-images"></i>
-                    </span>
-                    <span>Dataset (TBA)</span>
-                  </a>
+                <span>Dataset (TBA)</span>
+              </a>
+            </span>
+            
+            <!-- Code Link. -->
+            <span class="link-block">
+              <a href="https://github.com" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
                 </span>
-                
-                <!-- Code Link. -->
-                <span class="link-block">
-                  <a href="https://github.com" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code (TBA)</span>
-                  </a>
-                </span>
-
-              </div>
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-
-            <h2 class="title is-3">Abstract</h2>
-
-            <!-- Cover Figure -->
-            <div class="item">
-                <img src="./static/images/UPTor_cover.jpg"
-                 alt="cover image."/>
-            </div>
-
-            <div class="content has-text-justified">
-              <p>We introduce a unified approach to forecast the dynamics 
-                of human keypoints along with the motion trajectory based on a short 
-                sequence of input poses. While many studies address either full-body 
-                pose prediction or motion trajectory prediction, only a few attempt to merge them. 
-                We propose a motion transformation technique to simultaneously predict full-body 
-                pose and trajectory key-points in a global coordinate frame. We utilize an 
-                off-the-shelf 3D human pose estimation module, a graph attention network to 
-                encode the skeleton structure, and a compact, non-autoregressive transformer
-                suitable for real-time human motion prediction for
-                human-robot applications. We introduce a human navigation
-                dataset "DARKO" with specific focus on navigational activities
-                that are relevant for human-aware mobile robot navigation.
-                We perform extensive evaluation on Human3.6M, CMU-Mocap,
-                and our DARKO dataset. In comparison to prior work, we
-                show that our approach is compact, real-time, and accurate in
-                predicting human navigation motion across all datasets.
-              </p>
-            </div>
+                <span>Code (TBA)</span>
+              </a>
+            </span>
 
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="section hero">
-      <div class="container is-max-desktop">
-        
-        <div class="columns is-centered has-text-centered">
-            <h2 class="title">Method Overview</h2>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Model Figure -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Abstract</h2>
+
+        <!-- Cover Figure -->
         <div class="item">
-            <img src="./static/images/model_overview.gif"
-                  alt="model overview."/>
+            <img src="./static/images/UPTor_cover.jpg"
+              alt="cover image."/>
         </div>
-        
-      </div>
-    </section>
 
-    <!-- <section class="section hero">
-      <div class="container is-max-desktop">
-        
-        <div class="columns is-centered has-text-centered">
-            <h2 class="title">DARKO Dataset and UPTor Predictions</h2>
-        </div>        
-      </div>
-    </section> -->
-
-    <section class="hero">
-      <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered has-text-centered">
-            <h2 class="title">UPTor Predictions across Datasets</h2>
-          </div>
-
-          <div id="results-carousel" class="carousel results-carousel">
-
-            <div class="item">
-              <video poster="" id="h36m" autoplay controls muted loop playsinline>
-                <source src="./static/images/H36M_Predictions.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-
-            <div class="item">
-              <video poster="" id="darkodata" autoplay controls muted loop playsinline>
-                <source src="./static/images/DARKO_Dataset.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-
-            <div class="item">
-              <video poster="" id="darko" autoplay controls muted loop playsinline>
-                <source src="./static/images/DARKO_Predictions.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-
-            <div class="item">
-              <video poster="" id="cmu" autoplay controls muted loop playsinline>
-                <source src="./static/images/CMU_Predictions.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-
-          </div>
+        <div class="content has-text-justified">
+          <p>We introduce a unified approach to forecast the dynamics 
+            of human keypoints along with the motion trajectory based on a short 
+            sequence of input poses. While many studies address either full-body 
+            pose prediction or motion trajectory prediction, only a few attempt to merge them. 
+            We propose a motion transformation technique to simultaneously predict full-body 
+            pose and trajectory key-points in a global coordinate frame. We utilize an 
+            off-the-shelf 3D human pose estimation module, a graph attention network to 
+            encode the skeleton structure, and a compact, non-autoregressive transformer
+            suitable for real-time human motion prediction for
+            human-robot applications. We introduce a human navigation
+            dataset "DARKO" with specific focus on navigational activities
+            that are relevant for human-aware mobile robot navigation.
+            We perform extensive evaluation on Human3.6M, CMU-Mocap,
+            and our DARKO dataset. In comparison to prior work, we
+            show that our approach is compact, real-time, and accurate in
+            predicting human navigation motion across all datasets.
+          </p>
         </div>
 
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section class="section" id="BibTeX">
-      <div class="container is-max-desktop content">
-        <h2 class="title">BibTeX</h2>
-        <pre><code>@misc{nilavadi2025uptorunified3dhuman,
-      title         = {UPTor: Unified 3D Human Pose Dynamics and Trajectory Prediction for Human-Robot Interaction},
-      author        = {Nisarga Nilavadi and Andrey Rudenko and Timm Linder},
-      year          = {2025},
-      eprint        = {2505.14866},
-      archivePrefix = {arXiv},
-      primaryClass  = {cs.RO},
-      url           = {https://arxiv.org/abs/2505.14866},
-    }</code></pre>
+<section class="section hero">
+  <div class="container is-max-desktop">
+    
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title">Method Overview</h2>
+    </div>
+
+    <!-- Model Figure -->
+    <div class="item">
+        <img src="./static/images/model_overview.gif"
+              alt="model overview."/>
+    </div>
+    
+  </div>
+</section>
+
+<!-- <section class="section hero">
+  <div class="container is-max-desktop">
+    
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title">DARKO Dataset and UPTor Predictions</h2>
+    </div>        
+  </div>
+</section> -->
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title">UPTor Predictions Across Datasets</h2>
       </div>
-    </section>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-8">
-            <div class="content has-text-centered">
-              <p> The source code of this website is based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page</p>
-            </div>
-          </div>
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div class="item">
+          <video poster="" id="h36m" autoplay controls muted loop playsinline>
+            <source src="./static/images/H36M_Predictions.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item">
+          <video poster="" id="darkodata" autoplay controls muted loop playsinline>
+            <source src="./static/images/DARKO_Dataset.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item">
+          <video poster="" id="darko" autoplay controls muted loop playsinline>
+            <source src="./static/images/DARKO_Predictions.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item">
+          <video poster="" id="cmu" autoplay controls muted loop playsinline>
+            <source src="./static/images/CMU_Predictions.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{nilavadi2025uptorunified3dhuman,
+  title         = {UPTor: Unified 3D Human Pose Dynamics and Trajectory Prediction for Human-Robot Interaction},
+  author        = {Nisarga Nilavadi and Andrey Rudenko and Timm Linder},
+  year          = {2025},
+  eprint        = {2505.14866},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2505.14866},
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p> The source code of this website is based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page</p>
         </div>
       </div>
-    </footer>
+    </div>
+  </div>
+</footer>
 
-    <script type="text/javascript">
-      var sc_project=12351448; 
-      var sc_invisible=1; 
-      var sc_security="c676de4f"; 
-    </script>
+<script type="text/javascript">
+  var sc_project=12351448; 
+  var sc_invisible=1; 
+  var sc_security="c676de4f"; 
+</script>
 
-    <script type="text/javascript"
-      src="https://www.statcounter.com/counter/counter.js"
-      async>
-    </script>
+<script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async>
+</script>
 
-    <noscript>
-      <div class="statcounter">
-        <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
-          <img class="statcounter" src="https://c.statcounter.com/12351448/0/c676de4f/1/" alt="Web Analytics">  
-        </a>
-      </div>
-    </noscript>
+<noscript>
+  <div class="statcounter">
+    <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
+      <img class="statcounter" src="https://c.statcounter.com/12351448/0/c676de4f/1/" alt="Web Analytics">  
+    </a>
+  </div>
+</noscript>
 
-  </body>
+</body>
   
 </html>
