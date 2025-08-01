@@ -1,4 +1,4 @@
-# [UPTor Page](nisarganc.github.io/UPTor-page/)
+# [UPTor Page](https://nisarganc.github.io/UPTor-page/)
 
 This repository contains the source code for the [UPTor](https://nisarganc.github.io/UPTor-page/) website.
 
